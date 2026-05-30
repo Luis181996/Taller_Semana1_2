@@ -122,3 +122,25 @@ remote: Resolving deltas: 100% (16/16), completed with 16 local objects.
 To https://github.com/Luis181996/Taller_Semana1_2.git
    52441c7..df0384b  master -> master
 branch 'master' set up to track 'origin/master'.
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (Rama_Luis)
+$ git add .
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (Rama_Luis)
+$ git commit -m "Cambios guardados"
+[Rama_Luis babdec1] Cambios guardados
+ 1 file changed, 13 insertions(+)
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (Rama_Luis)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+------PARA TRAER LOS CAMBIOS MAS RECIENTES--------------
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git pull origin master
+From https://github.com/Luis181996/Taller_Semana1_2
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+
