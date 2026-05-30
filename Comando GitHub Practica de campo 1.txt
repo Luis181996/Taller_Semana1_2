@@ -122,3 +122,58 @@ remote: Resolving deltas: 100% (16/16), completed with 16 local objects.
 To https://github.com/Luis181996/Taller_Semana1_2.git
    52441c7..df0384b  master -> master
 branch 'master' set up to track 'origin/master'.
+
+-----------------------------------------
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git add .
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git commit -m "Comandos Git, Integrantes y Preguntas de Reflexión"
+[master fef4a1c] Comandos Git, Integrantes y Preguntas de Reflexión
+ 3 files changed, 137 insertions(+)
+ create mode 100644 Comando GitHub Practica de campo 1.txt
+ create mode 100644 Integrantes.txt
+ create mode 100644 Preguntas de reflexion.txt
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.12 KiB | 2.12 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Luis181996/Taller_Semana1_2.git
+   df0384b..fef4a1c  master -> master
+branch 'master' set up to track 'origin/master'.
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git log
+commit fef4a1c8faf75243a3249179bc1f3aee890da918 (HEAD -> master, origin/master)
+Author: Luis181996 <luishumberto181996@hotmail.com>
+Date:   Sat May 30 18:00:36 2026 -0500
+
+->  Comandos Git, Integrantes y Preguntas de Reflexión
+
+commit df0384b008f3403269e22e8bb03fbc31ae7028aa
+Author: Luis181996 <luishumberto181996@hotmail.com>
+Date:   Sat May 30 17:45:35 2026 -0500
+
+-> Mi segundo commit del práctica de campo 1
+
+commit 52441c7357b734923e5f8aac0cba5039ebe8af0a
+Author: Luis181996 <luishumberto181996@hotmail.com>
+Date:   Sat May 30 17:21:27 2026 -0500
+
+-> Mi primer commit del práctica de campo 1
+
+-----------------------------
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git branch Rama_Luis
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git checkout Rama_Luis
+M       Comando GitHub Practica de campo 1.txt
+Switched to branch 'Rama_Luis'
+
+
