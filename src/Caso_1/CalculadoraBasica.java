@@ -3,6 +3,7 @@ package Caso_1;
 import java.util.Scanner;
 
 public class CalculadoraBasica {
+//REALIZADO POR LUIS HUMBERTO ORTIZ PELAEZ
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 	 

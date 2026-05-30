@@ -6,3 +6,4 @@ public class Contador {
 		cuenta ++;
 	}
 }
+//REALIZADO POR IVAN CORCINO

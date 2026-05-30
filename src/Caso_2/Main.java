@@ -1,6 +1,7 @@
 package Caso_2;
 
 public class Main {
+//REALIZADO POR LUIS ORTIZ
     public static void main(String[] args) {	        
         //OBJ_1
         Persona p1 = new Persona("Juan Perez", 30);	                

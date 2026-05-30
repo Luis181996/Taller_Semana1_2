@@ -5,7 +5,9 @@ public class Main {
 		Contador conta1 = new Contador();
 		Contador conta2 = new Contador();
 		Contador conta3 = new Contador();
+		Contador conta4 = new Contador();
 		
 		System.out.println(Contador.cuenta);
 	}
 }
+//REALIZADO POR IVAN CORCINO

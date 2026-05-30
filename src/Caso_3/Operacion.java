@@ -1,6 +1,7 @@
 package Caso_3;
 
-public class Operacion {		
+public class Operacion {
+//REALIZADO POR LUIS ORTIZ
     public int sumar(int a, int b) {
         return a + b;
     }    

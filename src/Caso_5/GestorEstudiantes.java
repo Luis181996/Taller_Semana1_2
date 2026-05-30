@@ -2,7 +2,7 @@ package Caso_5;
 import java.util.ArrayList;
 
 public class GestorEstudiantes {
-	
+//REALIZADO POR IVAN CORCINO
 	private ArrayList<String> lista = new ArrayList<>();
 
     public void agregar(String nombre) throws Exception {

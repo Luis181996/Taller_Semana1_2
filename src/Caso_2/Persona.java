@@ -1,6 +1,7 @@
 package Caso_2;
 
 public class Persona {
+//REALIZADO POR LUIS ORTIZ
 	//MIS ATRIBUTOS      
     private String nombre;
     private int edad;

@@ -3,7 +3,7 @@ package Caso_5;
 import java.util.Scanner;
 
 public class Main {
-
+//REALIZADO POR IVAN CORCINO
     public static void main(String[] args) {
         GestorEstudiantes gestor = new GestorEstudiantes();
         Scanner scanner = new Scanner(System.in);
