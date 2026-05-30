@@ -1,0 +1,9 @@
+PRACTICA DE CAMPO 1
+Preguntas de Reflexión:
+
+-> ¿Cuál es la diferencia entre un método normal y uno static? 
+
+El método normal necesita que cree un objeto para poder usarlo y el método static lo usa directamente con el nombre de la clase sin crear ningún objeto.
+
+-> ¿En qué casos usarías sobrecarga de métodos?
+La sobrecarga permite que el mismo nombre del método acepte distintos tipos o cantidad de datos.

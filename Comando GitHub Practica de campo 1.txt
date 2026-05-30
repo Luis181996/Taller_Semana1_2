@@ -1,0 +1,124 @@
+COMANDOS GITHUB:
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 ~
+$ git config --global user.name "Luis181996"
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 ~
+$ git config --global user.email "luishumberto181996@hotmail.com"
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 ~
+$ cd /d/UPN\ LUIS\ 2026/5°\ CICLO/Técnicas\ de\ program.orie.obj/git/
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git (master)
+$ cd Taller_Semana1_2/
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git add .
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git commit -m "Mi primer commit del práctica de campo 1"
+[master (root-commit) 52441c7] Mi primer commit del práctica de campo 1
+ 24 files changed, 278 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 bin/Caso_1/CalculadoraBasica.class
+ create mode 100644 bin/Caso_2/Main.class
+ create mode 100644 bin/Caso_2/Persona.class
+ create mode 100644 bin/Caso_3/Main.class
+ create mode 100644 bin/Caso_3/Operacion.class
+ create mode 100644 bin/Caso_4/Contador.class
+ create mode 100644 bin/Caso_4/Main.class
+ create mode 100644 bin/Caso_5/GestorEstudiantes.class
+ create mode 100644 bin/Caso_5/Main.class
+ create mode 100644 bin/module-info.class
+ create mode 100644 src/Caso_1/CalculadoraBasica.java
+ create mode 100644 src/Caso_2/Main.java
+ create mode 100644 src/Caso_2/Persona.java
+ create mode 100644 src/Caso_3/Main.java
+ create mode 100644 src/Caso_3/Operacion.java
+ create mode 100644 src/Caso_4/Contador.java
+ create mode 100644 src/Caso_4/Main.java
+ create mode 100644 src/Caso_5/GestorEstudiantes.java
+ create mode 100644 src/Caso_5/Main.java
+ create mode 100644 src/module-info.java
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git remote add origin https://github.com/Luis181996/Taller_Semana1_2.git
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git log
+commit 52441c7357b734923e5f8aac0cba5039ebe8af0a (HEAD -> master)
+Author: Luis181996 <luishumberto181996@hotmail.com>
+Date:   Sat May 30 17:21:27 2026 -0500
+
+-> Mi primer commit del práctica de campo 1
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git branch
+* master
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git push -u origin master
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git push -u origin master
+Enumerating objects: 39, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (39/39), done.
+Writing objects: 100% (39/39), 11.63 KiB | 1.94 MiB/s, done.
+Total 39 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Luis181996/Taller_Semana1_2.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bin/Caso_1/CalculadoraBasica.class
+        modified:   bin/Caso_2/Main.class
+        modified:   bin/Caso_2/Persona.class
+        modified:   bin/Caso_3/Main.class
+        modified:   bin/Caso_3/Operacion.class
+        modified:   bin/Caso_4/Main.class
+        modified:   src/Caso_1/CalculadoraBasica.java
+        modified:   src/Caso_2/Main.java
+        modified:   src/Caso_2/Persona.java
+        modified:   src/Caso_3/Main.java
+        modified:   src/Caso_3/Operacion.java
+        modified:   src/Caso_4/Contador.java
+        modified:   src/Caso_4/Main.java
+        modified:   src/Caso_5/GestorEstudiantes.java
+        modified:   src/Caso_5/Main.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bin/.gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git commit -m "Mi segundo commit del práctica de campo 1"
+[master df0384b] Mi segundo commit del práctica de campo 1
+ 16 files changed, 19 insertions(+), 5 deletions(-)
+ create mode 100644 bin/.gitignore
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (master)
+$ git push -u origin master
+Enumerating objects: 56, done.
+Counting objects: 100% (56/56), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (29/29), 2.66 KiB | 2.66 MiB/s, done.
+Total 29 (delta 16), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (16/16), completed with 16 local objects.
+To https://github.com/Luis181996/Taller_Semana1_2.git
+   52441c7..df0384b  master -> master
+branch 'master' set up to track 'origin/master'.
