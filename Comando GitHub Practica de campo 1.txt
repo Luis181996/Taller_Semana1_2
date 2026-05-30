@@ -201,3 +201,16 @@ To https://github.com/Luis181996/Taller_Semana1_2.git
  * [new branch]      Rama_Luis -> Rama_Luis
 branch 'Rama_Luis' set up to track 'origin/Rama_Luis'.
 
+------------------REGRESAR A LA RAMA MAESTRA-------------------------------
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (Rama_Luis)
+$ git add .
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (Rama_Luis)
+$ git commit -m "Cambios guardados"
+[Rama_Luis a1cb876] Cambios guardados
+ 1 file changed, 24 insertions(+)
+
+
+
+
+
