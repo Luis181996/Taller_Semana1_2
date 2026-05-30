@@ -176,4 +176,28 @@ $ git checkout Rama_Luis
 M       Comando GitHub Practica de campo 1.txt
 Switched to branch 'Rama_Luis'
 
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (Rama_Luis)
+$ git add .
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (Rama_Luis)
+$ git commit -m "Cambios en Rama_Luis"
+[Rama_Luis e44bd08] Cambios en Rama_Luis
+ 3 files changed, 56 insertions(+)
+
+LUIS@DESKTOP-IKHLQN8 MINGW64 /d/UPN LUIS 2026/5° CICLO/Técnicas de program.orie.obj/git/Taller_Semana1_2 (Rama_Luis)
+$ git push -u origin Rama_Luis
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.31 KiB | 1.31 MiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+remote:
+remote: Create a pull request for 'Rama_Luis' on GitHub by visiting:
+remote:      https://github.com/Luis181996/Taller_Semana1_2/pull/new/Rama_Luis
+remote:
+To https://github.com/Luis181996/Taller_Semana1_2.git
+ * [new branch]      Rama_Luis -> Rama_Luis
+branch 'Rama_Luis' set up to track 'origin/Rama_Luis'.
 
